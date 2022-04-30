@@ -34,6 +34,13 @@ export default function Layout({ children, home }) {
 							alt={name}
 						/>
 						<h1 className={utilStyles.heading2Xl}>{name}</h1>
+						<p className={utilStyles.textCenter}>
+							I'm a Software Engineering student who is passionate about programming, science, technology, space
+							exploration. My youtube channel:{" "}
+							<a href="https://bit.ly/2XADTrM" target="_blank">
+								https://bit.ly/2XADTrM
+							</a>
+						</p>
 					</>
 				) : (
 					<>
